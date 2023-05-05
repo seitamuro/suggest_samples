@@ -33,4 +33,8 @@ curl -X POST localhost:9200/_bulk \
 {"my_field": "日本の人口", "created": "2020-04-07T12:00:00"}
 {"index": {"_index": "my_suggest"}}
 {"my_field": "日本 代表", "created": "2020-04-07T12:00:00"}
+{"index": {"_index": "my_suggest"}}
+{"my_field": "ハンバーガー", "created": "2020-04-07T12:00:00"}
+{"index": {"_index": "my_suggest"}}
+{"my_field": "ハンバーガー", "created": "2020-04-07T12:00:00"}
 '
