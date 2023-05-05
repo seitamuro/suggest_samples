@@ -1,0 +1,24 @@
+{
+  "name": "suggest_samples",
+  "version": "1.0.0",
+  "description": "日本語のサジェスト機能の実装方法の検証をします。",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seitamuro/suggest_samples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seitamuro/suggest_samples/issues"
+  },
+  "homepage": "https://github.com/seitamuro/suggest_samples#readme",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2"
+  }
+}
